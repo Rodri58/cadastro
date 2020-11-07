@@ -1,0 +1,57 @@
+.menu {
+    background-color: #5F5F5F;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.menu a{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: #dddddd;
+    color: black;
+}
+.menu a.ativo{
+    background-color: #4CAF50;
+    color: white;
+}
+.form{
+    background-color: #0B6FA4;
+    color: #f1f1f1;
+}
+.formgroup {
+    display: flex;
+    flex-direction:row;
+}
+.form-group label{
+    flex: none;
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.form-group label.right-inline {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+}
+.form-group .input-control {
+    display:block;
+    margin-bottom: 10px;
+    padding: 4px;
+    flex: 1 1 auto;
+}
+
+button{
+    color: #507b92;
+    background-color: #98CAE6;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    min-width: 100px;
+}
